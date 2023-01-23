@@ -1,0 +1,11 @@
+{
+  "login" : "375291660762",
+  "password" : "PuV6j_.2&$m9h?UYY",
+  "random_string_len" : 15,
+  "post_id_attr" : "id",
+  "image_attr" : "src",
+  "number_of_likes" : 1,
+  "expected_image_path" : "src/resources/expected.jpg",
+  "actual_image_path" : "src/resources/actual.jpg",
+  "owner_id" : "627657327"
+}
