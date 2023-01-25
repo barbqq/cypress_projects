@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/vk.testcase.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/testdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/vkendpoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/steps/vk.steps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/steps/vkapi.steps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/utils/common.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/expected.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/e2e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/vk.testcase.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/vk.testcase.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/steps/vk.steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/steps/vk.steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/steps/vkapi.steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/steps/vkapi.steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/utils/common.util.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/utils/common.util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebStromProjects",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebStromProjects&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

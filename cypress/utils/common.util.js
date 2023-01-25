@@ -1,6 +1,6 @@
 import Jimp from 'jimp';
 import fs from 'fs';
-
+import HttpMethod from "http-method-enum";
 
 class CommonUtils{
 
@@ -27,6 +27,25 @@ class CommonUtils{
         const pixelDifference =  Jimp.diff(actual, expected);
         const distance =  Jimp.distance(actual, expected);
         return distance < 0.20 || pixelDifference < 0.20;
+    }
+
+    static formRequest(url, formData) {
+        const request = new XMLHttpRequest();
+        request.open(HttpMethod.POST, url, false);
+        request.setRequestHeader("Content-Type", "multipart/form-data");
+        request.send(formData);
+        return JSON.parse(request.response);
+    }
+
+    static customerUploadFile(url, file, fileName, fileType) {
+        return cy.fixture(file,'base64').then((binary) => {
+            return Cypress.Blob.base64StringToBlob(binary,fileType)
+        })
+            .then((blob) => {
+                const formData = new FormData();
+                formData.set('photo', blob, fileName);
+                return CommonUtils.formRequest(url, formData);
+            })
     }
 }
 

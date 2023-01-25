@@ -83,7 +83,10 @@ class VkSteps{
             })
             cy.xpath(`//div[contains(text(),'${this.post.message}')]`).should('not.be.visible')
         })
+    }
 
+    static editPost(){
+        VkApiSteps.uploadPhotoTwo()
     }
 
 

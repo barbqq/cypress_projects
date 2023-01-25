@@ -46,6 +46,46 @@ class VkApiSteps{
         })
     }
 
+    static getWallPhohoUploadUrl(){
+        let params = this.commonParams()
+        return cy.request({
+            method: HttpMethod.POST,
+            url: VKEndpoints.vk_api_url + VKEndpoints.get_wall_upload_path,
+            qs: params
+        })
+    }
+
+    static uploadPhoto(){
+        this.getWallPhohoUploadUrl().then(resp=>{
+            let url = resp.body.response.upload_url
+            cy.customerUploadFile(url,'expected.jpg','expected.jpg','image/jpeg')
+                .then(resp=>{
+                    cy.log(resp)
+                })
+        })
+    }
+
+    static uploadPhotoTwo(){
+        this.getWallPhohoUploadUrl().then(resp=>{
+            let url = resp.body.response.upload_url
+            const data = new FormData();
+            cy.intercept('POST',url).as('hoho')
+            cy.fixture('expected.jpg', "base64")
+                .then((binary) => Cypress.Blob.base64StringToBlob(binary,'image/jpg'))
+                .then((blob) => {
+                    const xhr = new XMLHttpRequest();
+                    data.set("photo", blob);
+                    cy.log(data.get('photo').toString())
+                    xhr.open('POST', url);
+                    xhr.setRequestHeader("Content-Type", `multipart/form-data`);
+                    xhr.send(data);
+                });
+            cy.wait('@hoho').then(resp=>{
+                cy.log(resp)
+            })
+        })
+    }
+
     static commonParams(){
         return {
             access_token: VKEndpoints.token,

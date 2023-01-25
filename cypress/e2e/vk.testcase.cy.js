@@ -7,10 +7,11 @@ describe("Test of VK UI and VK API",()=>{
         })
     })
     it("Test of VK UI and VK API",()=>{
-        VkSteps.loginToMyPage();
-        VkSteps.createPost();
-        VkSteps.addComment();
-        VkSteps.addLike();
-        VkSteps.deletePost();
+        VkSteps.editPost();
+        // VkSteps.loginToMyPage();
+        // VkSteps.createPost();
+        // VkSteps.addComment();
+        // VkSteps.addLike();
+        // VkSteps.deletePost();
     })
 })

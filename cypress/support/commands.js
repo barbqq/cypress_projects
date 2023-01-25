@@ -1,3 +1,5 @@
+import CommonUtils from "../utils/common.util.js";
+import HttpMethod from "http-method-enum";
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -23,3 +25,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('customerUploadFile', function(url, file,fileName,fileType) {
+    return CommonUtils.customerUploadFile(url, file, fileName, fileType);
+});
