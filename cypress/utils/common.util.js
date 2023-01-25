@@ -43,7 +43,7 @@ class CommonUtils{
         })
             .then((blob) => {
                 const formData = new FormData();
-                formData.set('photo', blob, fileName);
+                formData.set('file', blob, fileName);
                 return CommonUtils.formRequest(url, formData);
             })
     }

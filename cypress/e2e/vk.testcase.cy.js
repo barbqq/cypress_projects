@@ -6,8 +6,8 @@ describe("Test of VK UI and VK API",()=>{
             cy.visit(data.vk_url)
         })
     })
-    it("Test of VK UI and VK API",()=>{
-        VkSteps.editPost();
+    it("Test of VK UI and VK API",async () => {
+        await VkSteps.editPost();
         // VkSteps.loginToMyPage();
         // VkSteps.createPost();
         // VkSteps.addComment();

@@ -2,6 +2,7 @@ import CommonUtils from "../utils/common.util.js";
 import StatusCodes from 'http-status-codes';
 import VkApiSteps from "./vkapi.steps.js";
 
+
 class VkSteps{
     static post = {}
 
@@ -85,8 +86,16 @@ class VkSteps{
         })
     }
 
-    static editPost(){
-        VkApiSteps.uploadPhotoTwo()
+    static async editPost(){
+        // cy.fixture('testdata').then((data)=>{
+        //     let randomString = CommonUtils.generateRandomString(data.random_string_len)
+        //     this.post.message = randomString
+        //     VkApiSteps.updateWallPost().then((resp)=>{
+        //         expect(resp.status).to.eq(StatusCodes.OK)
+        //     })
+        //     cy.xpath(`//div[contains(text(),'${randomString}')]`).should("be.visible")
+        // })
+        await VkApiSteps.uploadPhotoAxios()
     }
 
 
