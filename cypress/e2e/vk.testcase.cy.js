@@ -6,12 +6,12 @@ describe("Test of VK UI and VK API",()=>{
             cy.visit(data.vk_url)
         })
     })
-    it("Test of VK UI and VK API",async () => {
-        await VkSteps.editPost();
-        // VkSteps.loginToMyPage();
-        // VkSteps.createPost();
-        // VkSteps.addComment();
-        // VkSteps.addLike();
-        // VkSteps.deletePost();
+    it("Test of VK UI and VK API",() => {
+        VkSteps.loginToMyPage();
+        VkSteps.createPost();
+        VkSteps.editPost();
+        VkSteps.addComment();
+        VkSteps.addLike();
+        VkSteps.deletePost();
     })
 })

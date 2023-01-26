@@ -1,5 +1,3 @@
-import Jimp from 'jimp';
-import fs from 'fs';
 import HttpMethod from "http-method-enum";
 
 class CommonUtils{
@@ -14,25 +12,9 @@ class CommonUtils{
         return result;
     }
 
-    // static async createImageFromUrl(url,localPath){
-    //     const response = await fetch(url);
-    //     const buffer = await response.buffer();
-    //     fs.writeFile(localPath, buffer, () =>
-    //         console.log('finished downloading!'));
-    // }
-
-    static async areEqual(actualPath,expectedPath) {
-        const actual = await Jimp.read(actualPath);
-        const expected = await Jimp.read(expectedPath);
-        const pixelDifference =  Jimp.diff(actual, expected);
-        const distance =  Jimp.distance(actual, expected);
-        return distance < 0.20 || pixelDifference < 0.20;
-    }
-
     static formRequest(url, formData) {
         const request = new XMLHttpRequest();
         request.open(HttpMethod.POST, url, false);
-        request.setRequestHeader("Content-Type", "multipart/form-data");
         request.send(formData);
         return JSON.parse(request.response);
     }
