@@ -3,6 +3,7 @@ const { downloadFile } = require('cypress-downloadfile/lib/addPlugin')
 const Jimp = require('jimp')
 
 module.exports = defineConfig({
+  projectId: "94pfx5",
   e2e: {
     setupNodeEvents(on, config) {
       on("task", {

@@ -14,7 +14,6 @@ jobs:
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CYPRESS_PROJECT_ID: ${{ secrets.PROJECT_ID }}
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         if: always()
