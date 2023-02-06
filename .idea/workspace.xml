@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Added 3 more variant of uploading file">
-      <change afterPath="$PROJECT_DIR$/cypress/resources/locators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/resources/parametrized.loc.js" afterDir="false" />
+    <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Added final steps image comparison and post update. Moved locator to different files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/vk.testcase.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/vk.testcase.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/fixtures/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/testdata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/steps/vk.steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/steps/vk.steps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/steps/vkapi.steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/steps/vkapi.steps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/utils/common.util.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/utils/common.util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/vkendpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/vkendpoints.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +27,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebStromProjects/cypress_projects/cypress/fixtures",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebStromProjects/cypress_projects/cypress/fixtures&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebStromProjects\cypress_projects\cypress\fixtures" />
@@ -65,7 +56,10 @@
       <workItem from="1674469637718" duration="12483000" />
       <workItem from="1674656171259" duration="1685000" />
       <workItem from="1674659251707" duration="2298000" />
-      <workItem from="1674718670188" duration="11770000" />
+      <workItem from="1674718670188" duration="12024000" />
+      <workItem from="1675063867303" duration="2952000" />
+      <workItem from="1675244263811" duration="687000" />
+      <workItem from="1675676472506" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="Cypress project setup">
       <created>1674290109830</created>
@@ -95,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674657849572</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added final steps image comparison and post update. Moved locator to different files.">
+      <created>1674733869781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674733869781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +118,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added 2 variant of uploading file" />
     <MESSAGE value="Added 3 more variant of uploading file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 3 more variant of uploading file" />
+    <MESSAGE value="Added final steps image comparison and post update. Moved locator to different files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added final steps image comparison and post update. Moved locator to different files." />
   </component>
 </project>
