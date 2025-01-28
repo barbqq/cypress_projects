@@ -55,7 +55,7 @@ Before(function(){
 })
 
 When("I visit site main page",function (){
-    cy.visit("/")
+    cy.visit("https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html")
 })
 
 When("I click Add element button",function(){

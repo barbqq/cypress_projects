@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Firt commint">
+    <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Firt commintfff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/common/steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/common/steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/features/AddRemove.feature" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/features/AddRemove.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
       <workItem from="1675063867303" duration="2952000" />
       <workItem from="1675244263811" duration="687000" />
       <workItem from="1675676472506" duration="933000" />
-      <workItem from="1738062877488" duration="2965000" />
+      <workItem from="1738062877488" duration="3347000" />
     </task>
     <task id="LOCAL-00001" summary="Cypress project setup">
       <created>1674290109830</created>
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738063638023</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Firt commintfff">
+      <created>1738066559173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738066559173</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +137,7 @@
     <MESSAGE value="Added 3 more variant of uploading file" />
     <MESSAGE value="Added final steps image comparison and post update. Moved locator to different files." />
     <MESSAGE value="Firt commint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firt commint" />
+    <MESSAGE value="Firt commintfff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firt commintfff" />
   </component>
 </project>
