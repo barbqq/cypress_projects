@@ -1,0 +1,75 @@
+[{
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "testing;test-scenario-for-reporting",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test scenario for reporting",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I expect that first string value \"a\" should be equal to second string value \"a\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I expect that first string value \"a\" should be equal to second string value \"a\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I expect that first string value \"a\" should be equal to second string value \"a\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I expect that first string value \"a\" should be equal to second string value \"a\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Testing",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\Test.feature"
+}
+]

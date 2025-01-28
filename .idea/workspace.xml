@@ -2,9 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Added final steps image comparison and post update. Moved locator to different files.">
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/common/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/common/steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/features/AddRemove.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/element-mappers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/responsive.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/img/ghost.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/darkmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/dataTables.responsive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/features/c1114fba-12d7-45c2-807f-7bdf83545c1b-testing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/report/report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/customTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/utils/commonUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/utils/httpUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/utils/uploadUtils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/testdata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/vkendpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/vkendpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/vk.testcase.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/expected.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/testdata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/vkendpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/resources/locators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/resources/parametrized.loc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/steps/vk.steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/steps/vkapi.steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/e2e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/utils/common.util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,19 +75,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WebStromProjects/cypress_projects/cypress/fixtures&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Projects/cypress_projects",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\cypress_projects" />
       <recent name="D:\WebStromProjects\cypress_projects\cypress\fixtures" />
     </key>
   </component>
@@ -60,6 +109,7 @@
       <workItem from="1675063867303" duration="2952000" />
       <workItem from="1675244263811" duration="687000" />
       <workItem from="1675676472506" duration="933000" />
+      <workItem from="1738062877488" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="Cypress project setup">
       <created>1674290109830</created>
