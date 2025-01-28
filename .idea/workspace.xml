@@ -1,58 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Added final steps image comparison and post update. Moved locator to different files.">
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/common/hooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/common/steps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/features/AddRemove.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/element-mappers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/report.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/css/responsive.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/img/ghost.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/darkmode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/assets/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/features/c1114fba-12d7-45c2-807f-7bdf83545c1b-testing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/report/report.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/customTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/utils/commonUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/utils/httpUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/utils/uploadUtils.js" afterDir="false" />
+    <list default="true" id="f6743374-c992-4c71-a8ca-b52a18ef8ea7" name="Changes" comment="Firt commint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/vk.testcase.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/expected.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/testdata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/vkendpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/resources/locators.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/resources/parametrized.loc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/steps/vk.steps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/steps/vkapi.steps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/e2e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/utils/common.util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +59,7 @@
       <workItem from="1675063867303" duration="2952000" />
       <workItem from="1675244263811" duration="687000" />
       <workItem from="1675676472506" duration="933000" />
-      <workItem from="1738062877488" duration="406000" />
+      <workItem from="1738062877488" duration="2965000" />
     </task>
     <task id="LOCAL-00001" summary="Cypress project setup">
       <created>1674290109830</created>
@@ -146,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674733869781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Firt commint">
+      <created>1738063638022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738063638023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +126,7 @@
     <MESSAGE value="Added 2 variant of uploading file" />
     <MESSAGE value="Added 3 more variant of uploading file" />
     <MESSAGE value="Added final steps image comparison and post update. Moved locator to different files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added final steps image comparison and post update. Moved locator to different files." />
+    <MESSAGE value="Firt commint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firt commint" />
   </component>
 </project>
